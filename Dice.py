@@ -1,16 +1,21 @@
 from random import *
 
-def playOnce():
-    roll = randint(1,6)
-    print roll
+class Dice:
+    def __init__(self):
+        print "Dice created"
 
 
-def main():
-    roll_again = True
-    while roll_again:
-        playOnce()
-        ans = raw_input("Would you like to go again")
-        if ans != 'y':
-            roll_again = False
+#def playOnce():
+#    roll = randint(1,6)
+#    print roll
 
-main()
+
+#def main():
+#    roll_again = True
+#    while roll_again:
+#        playOnce()
+#        ans = raw_input("Would you like to go again")
+#        if ans != 'y':
+#            roll_again = False
+
+#main()

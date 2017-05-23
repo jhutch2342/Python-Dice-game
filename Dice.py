@@ -1,9 +1,12 @@
 from random import *
 
 class Dice:
+    
     def __init__(self):
         print "Dice created"
 
+    def roll(self):
+        return randint(1,6)
 
 #def playOnce():
 #    roll = randint(1,6)

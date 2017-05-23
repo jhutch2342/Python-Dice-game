@@ -1,4 +1,3 @@
-from Dice import Dice
+from Game import Game
 
-a = Dice()
-
+g = Game()
